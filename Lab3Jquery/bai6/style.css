@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.thumbnail {
+    width: 100px;
+    height: 100px;
+}
+#largeImageContainer {
+    display: none;
+    margin-top: 20px;
+    position: relative;
+}
+#largeImage {
+    width: 400px;
+    height: auto;
+}
+#close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+}

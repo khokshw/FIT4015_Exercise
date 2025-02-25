@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+    <form id="registerForm">
+        <input type="text" id="name" placeholder="Tên">
+        <div class="error" id="nameError">Tên không được để trống.</div>
+        
+        <input type="email" id="email" placeholder="Email">
+        <div class="error" id="emailError">Email không hợp lệ.</div>
+        
+        <input type="password" id="password" placeholder="Mật khẩu">
+        <div class="error" id="passwordError">Mật khẩu phải có ít nhất 6 ký tự.</div>
+        
+        <button type="submit">Gửi</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
